@@ -176,6 +176,21 @@ function teksh------------------------------------------------------------ir(par
 
 tekshir('ogabek', 'ogabek')*/
 
+let arr= 20
+let s = 0
+for(let i=2; i<=arr; i++){
+    s=0
+    for(let j=1; j<=i; j++){
+        if(i%j == 0){
+            s++
+        }
+    }
+    if(s<=2){
+        console.log(i)
+    }
+}
+
+
 
 
 
