@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <section>
+     <div class="container">
+
+       <input type="text" id="show" readonly value="0">
+
+       <div class="buttons">
+         <div class="button" onclick="addValue(7)">7</div>
+         <div class="button" onclick="addValue(8)">8</div>
+         <div class="button" onclick="addValue(9)">9</div>
+         <div class="button" onclick="addValue('+')">+</div>
+         <div class="button" onclick="addValue(4)">4</div>
+         <div class="button" onclick="addValue(5)">5</div>
+         <div class="button" onclick="addValue(6)">6</div>
+         <div class="button" onclick="addValue('-')">-</div>
+         <div class="button" onclick="addValue(1)">1</div>
+         <div class="button" onclick="addValue(2)">2</div>
+         <div class="button" onclick="addValue(3)">3</div>
+         <div class="button" onclick="addValue('*')">*</div>
+         <div class="button clear" id="clear">c</div>
+         <div class="button" onclick="addValue(0)">0</div>
+         <div id="equal" class="button">=</div>
+         <div class="button" id="del">x</div>
+       </div>
+     </div>
+   </section>
+  <script src="js/script.js"></script>
+</body>
+</html>

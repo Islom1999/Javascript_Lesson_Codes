@@ -14,6 +14,16 @@ function modalToggle(){
 
 btnModal.addEventListener('click', modalToggle)
 
+modalBg.addEventListener('click', () => {
+    modal.style.transform = 'translate(-50%, -50%) scale(0)'
+    modalBg.style.display = 'none'
+    isOpen = false
+})
+
+
+
+
+
 document.querySelector('#close-modal').addEventListener('click', () => {
     modal.style.transform = 'translate(-50%, -50%) scale(0)'
     modalBg.style.display = 'none'
